@@ -6,11 +6,11 @@ spring:
     show-sql: true
     hibernate:
       ddl-auto: none
-  datasource:                           # Ö¸¶¨Êı¾İÔ´
-    platform: h2                        # Ö¸¶¨Êı¾İÔ´ÀàĞÍ
-    schema: classpath:schema.sql        # Ö¸¶¨h2Êı¾İ¿âµÄ½¨±í½Å±¾
-    data: classpath:data.sql            # Ö¸¶¨h2Êı¾İ¿âµÄinsert½Å±¾
-logging:                                # ÅäÖÃÈÕÖ¾¼¶±ğ£¬ÈÃhibernate´òÓ¡³öÖ´ĞĞµÄSQL
+  datasource:                           # æŒ‡å®šæ•°æ®æº
+    platform: h2                        # æŒ‡å®šæ•°æ®æºç±»å‹
+    schema: classpath:schema.sql        # æŒ‡å®šh2æ•°æ®åº“çš„å»ºè¡¨è„šæœ¬
+    data: classpath:data.sql            # æŒ‡å®šh2æ•°æ®åº“çš„insertè„šæœ¬
+logging:                                # é…ç½®æ—¥å¿—çº§åˆ«ï¼Œè®©hibernateæ‰“å°å‡ºæ‰§è¡Œçš„SQL
   level:
     root: INFO
     org.hibernate: INFO
